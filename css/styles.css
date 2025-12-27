@@ -11517,3 +11517,25 @@ header.masthead .btn-primary:hover {
   font-size: 0.8rem;
   opacity: 0.6;
 }
+/* ================= MICRO ANIMATIONS ================= */
+
+.footer,
+#legal {
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.footer-brand {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 0 rgba(255,200,0,0.0);
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(255,200,0,0.5);
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(255,200,0,0.0);
+  }
+}
