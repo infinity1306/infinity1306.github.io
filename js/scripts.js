@@ -52,3 +52,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+// Lightweight scroll animations
+document.addEventListener("DOMContentLoaded", () => {
+  const animatedItems = document.querySelectorAll(".animate");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  animatedItems.forEach(el => observer.observe(el));
+});
