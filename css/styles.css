@@ -11492,3 +11492,28 @@ header.masthead .btn-primary {
 header.masthead .btn-primary:hover {
   box-shadow: 0 14px 40px rgba(255, 200, 0, 0.55);
 }
+/* ================= FOOTER POLISH ================= */
+
+.footer {
+  background-color: #000;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-brand {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #ffc800;
+  margin-bottom: 0.25rem;
+}
+
+.footer-tagline {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.75rem;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
