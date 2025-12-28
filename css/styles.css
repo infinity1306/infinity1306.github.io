@@ -11636,17 +11636,13 @@ html {
     opacity: 0;
   }
 }
-/* ================= SCRIPT BRAND STYLE ================= */
+/* ================= BRAND SCRIPT FIX ================= */
 
-.brand-script {
-  font-family: 'Montserrat', cursive;
-  font-weight: 800;
-  font-size: 1.8rem;
-  letter-spacing: 1px;
+.navbar-brand.brand-script {
+  font-family: 'Montserrat', cursive !important;
+  font-weight: 800 !important;
+  font-size: 1.9rem !important;
+  letter-spacing: 1px !important;
   color: #ffc800 !important;
 }
 
-.brand-script::first-letter {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-}
